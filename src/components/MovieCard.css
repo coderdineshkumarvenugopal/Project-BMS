@@ -1,0 +1,12 @@
+.moviecard {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Snap to each movie card */
+}
+
+.card {
+  flex: 0 0 auto; /* Prevent cards from growing */
+  width: 300px; /* Set the width of each card */
+  margin-right: 10px; /* Add spacing between cards */
+  scroll-snap-align: start; /* Align cards to the start of the scroll container */
+}
